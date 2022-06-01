@@ -32,7 +32,7 @@ import { FaCartPlus } from "react-icons/fa";
 const ProductItemRelate = ({ data }: any) => {
   return (
     <Link href={`/san-pham/${data._id}`} passHref>
-      <div className="w-[45%] sm:w-[22%] xl:w-[21.8%] 2xl:w-[21.5%] flex flex-col justify-center items-center cursor-pointer group mx-[8px] my-[12px] sm:mx-[10px] sm:my-[10px] lg:mx-[14px] lg:my-[14px] bg-white rounded-md overflow-hidden border border-white">
+      <div className="w-[45%] sm:w-[22%] xl:w-[21.8%] 2xl:w-[21.5%] flex flex-col justify-center items-center cursor-pointer group mx-[8px] my-[12px] sm:mx-[10px] sm:my-[10px] lg:mx-[14px] lg:my-[14px] bg-white rounded-md overflow-hidden border border-gray-300">
         <div className="overflow-hidden h-auto relative">
           <img
             loading="lazy"
